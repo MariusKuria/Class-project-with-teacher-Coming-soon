@@ -10,9 +10,9 @@ _website design project_
 
 ## 🌟 About
 
-This project is for educational porpuses only. To train tactics and techniques working webpage design and with github.
+This project is for educational porpuses only. To train tactics and techniques working on webpage design and with github.
 
-Site published at: TBD
+Site published at: https://mariuskuria.github.io/coming-soon/
 
 Design: [Dizainas](./images/example.png)
 
@@ -47,7 +47,7 @@ Would like to run this project locally? Open terminal and follow these steps:
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/MariusKuria/in-sapce-klaseje.git
+   git clone https://github.com/MariusKuria/coming-soon.git
    ```
 2. Install NPM packages
    ```sh
