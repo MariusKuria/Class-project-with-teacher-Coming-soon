@@ -1,0 +1,16 @@
+{
+  "name": "comming-soon",
+  "version": "1.0.0",
+  "description": "Coming soon",
+  "main": "index.js",
+  "scripts": {
+    "dev": "dead-server --host=localhost --port=3020 --browser=firefox",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "MarioD <MarioD>",
+  "license": "ISC",
+  "devDependencies": {
+    "dead-server": "^1.0.9"
+  }
+}
