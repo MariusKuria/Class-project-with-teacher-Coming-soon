@@ -12,7 +12,7 @@ _website design project_
 
 This project is for educational porpuses only. To train tactics and techniques working webpage design and with github.
 
-Site published at: TBD
+Site published at: https://mariuskuria.github.io/coming-soon/
 
 Design: [Dizainas](./images/example.png)
 
