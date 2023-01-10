@@ -9,7 +9,13 @@
 
 /* hero */
 .hero {
+    min-height: 100vh;
     padding-bottom: 30px;
+    background-image: url(../../images/perdaryta.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .hero > .short-row {
