@@ -9,6 +9,7 @@
 @import'../components/clock.css';
 @import'../components/mouse.css';
 @import'../components/progress-bar.css';
+@import'../components/button.css';
 
 /* CUSTOM STYLE BELOW THIS COMMENT LINE */
 
@@ -28,6 +29,8 @@
     flex-direction: column;
     gap: 30px;
     text-align: center;
+    align-content: center;
+    align-items: center;
 }
 
 .logo {
