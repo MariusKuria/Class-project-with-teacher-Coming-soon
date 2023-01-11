@@ -54,11 +54,15 @@ footer.container {
     padding-top: 0;
 }
 
-.row.socials {
+footer > .row {
+    position: relative;
+}
+
+.socials {
     display: flex;
-    gap: 10px;
     justify-content: center;
     flex-wrap: wrap;
+    gap: 10px;
     padding: 10px;
     text-align: center;
     border-bottom: 1px solid #fff;
@@ -79,4 +83,15 @@ footer.container {
     background-color: #fff;
     color: #03a9f3;
 }
+
+.back-to-top {
+    background-color: red;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+
+
 
