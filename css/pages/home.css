@@ -3,9 +3,13 @@
 @import '../base/layout.css';
 
 /* 3rd party */
-/* components */
+@import'../3rd-party/font-awesome.min.css';
 
-/* CUSTOM STYLE BILOW THIS COMMENT LINE */
+/* components */
+@import'../components/clock.css';
+@import'../components/mouse.css';
+
+/* CUSTOM STYLE BELOW THIS COMMENT LINE */
 
 /* hero */
 .hero {
@@ -47,5 +51,31 @@
 /* footer */
 footer.container {
     padding-top: 0;
+}
+
+.row.socials {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+}
+
+.socials > a {
+    width: 2.5em;
+    height: 2.5em;
+    line-height: 2.5em;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50%;
+    transition: all 5ms;
+}
+
+.socials > a:hover {
+    background-color: #fff;
+    color: #03a9f3;
 }
 
