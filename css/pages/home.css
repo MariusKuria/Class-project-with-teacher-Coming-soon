@@ -100,6 +100,27 @@ footer > .row {
     right: 0.6em;
 }
 
+footer > .short-row {
+    gap: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    flex-direction: column;
+    text-align: center;
+    gap: 2em;
+}
+.short-row > .short-row-logo {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    
+}
+.short-row-logo {
+    height: 40px;
+    font-size: 24px;
+    line-height: 2em;
+}
+
 
 
 
