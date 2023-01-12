@@ -65,7 +65,7 @@ footer > .row {
     text-align: center;
     border-bottom: 1px solid #fff;
 } */
-.row.socials {
+.socials {
     display: flex;
     justify-content: center;
     border-bottom: 1px solid #fff;
@@ -93,7 +93,7 @@ footer > .row {
 }
 
 .back-to-top {
-    background-color: red;
+    /* background-color: red; */
     position: absolute;
     top: -1.1em;
     right: 0.6em;
