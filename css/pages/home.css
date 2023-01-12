@@ -60,15 +60,20 @@ footer.container {
 footer > .row {
     position: relative;
 }
-
-.socials {
+/* .row-socials{
+    width: 70%;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+} */
+.row.socials {
     display: flex;
     justify-content: center;
+    border-bottom: 1px solid #fff;
     flex-wrap: wrap;
     gap: 10px;
     padding: 10px;
     text-align: center;
-    border-bottom: 1px solid #fff;
+    
 }
 
 .socials > a {
@@ -90,8 +95,8 @@ footer > .row {
 .back-to-top {
     background-color: red;
     position: absolute;
-    top: 0;
-    right: 0;
+    top: -1.1em;
+    right: 0.6em;
 }
 
 
