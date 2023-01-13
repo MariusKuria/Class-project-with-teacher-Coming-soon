@@ -100,28 +100,41 @@ footer > .row {
     right: 0.6em;
 }
 
-footer > .short-row {
-    gap: 2em;
+.container > .short-row-footer {
     display: flex;
-    flex-wrap: wrap;
-    width: 70%;
     flex-direction: column;
     text-align: center;
-    gap: 2em;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;  
 }
-.short-row > .short-row-logo {
+.short-row-footer > .bottom-logo {
     display: flex;
     flex-direction: row;
-    gap: 10px;
-    
+    justify-content: center;
+    gap: 5px;
 }
-.short-row-logo {
-    height: 40px;
-    font-size: 24px;
-    line-height: 2em;
+.bottom-logo > .logo {
+    width: 40px;
 }
+.bottom-logo > .name {
+    font-size: 42px;
+    color: #fff;
+    letter-spacing: -1px;
 
-
+}
+/* pro creator programa, mokytis sortkutus*/
+.creator {
+    width: 50%; 
+}
+.creator > .first-p {
+    line-height: 40px;
+    color: #fff;
+}
+.creator > .last-p {
+    line-height: 40px;
+    color: #fff;
+}
 
 
 
