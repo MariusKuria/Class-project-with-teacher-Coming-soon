@@ -16,7 +16,7 @@
 
 /* hero */
 .hero {
-    min-height: 100vh;
+    min-height: 60vh;
     padding-bottom: 30px;
     background-image: url(../../images/perdaryta.png);
     background-position: center;

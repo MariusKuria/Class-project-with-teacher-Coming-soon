@@ -1,4 +1,4 @@
-.btn {
+.btn, .form-up > .btn {
     padding: 0.5em 0.8em;
     text-decoration: none;
     text-align: center;
@@ -37,3 +37,5 @@
     <a href="#" class="btn btn-green">Click me</a>
     <button class="btn">Click me</button>
     <input class="btn" type="button" value="Click me" /> */
+
+     
